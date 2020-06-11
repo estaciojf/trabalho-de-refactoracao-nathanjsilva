@@ -1,7 +1,8 @@
 README
 
 
-### SQL
+###SQL
+
 ```
 CREATE TABLE `Livros` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
@@ -20,18 +21,3 @@ INSERT INTO `Livros` VALUES (1,'zezin','Tolkien','Aventura',1950,1),(2,'Clube da
 
 ### Alterar a string de conexão com o banco
 https://github.com/lesimoes/TrabalhoRefactor/blob/master/src/Enum/EDataBase.java
-
-
-
-### Avaliação:
-Cada refactaoração vale de 1pt a 2pts
-
-Criar um documento (README) ou comentar no código os pontos de refatoração
- e justificar.
- 
-
-Dica: https://refactoring.guru/pt-br
-Magic Numbers,
-ENUMS,
-Singleton,
-Factory,
